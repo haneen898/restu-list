@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 
 const RestaurantCard = ({ name, location, rating }) => {
-  // Function to render stars based on the rating
   const renderStars = () => {
     let stars = [];
     for (let i = 0; i < 5; i++) {
@@ -37,16 +36,3 @@ export default RestaurantCard;
 
 
 
-// import React from "react";
-
-// function RestaurantCard ({ name, location, rating }) {
-//     return (
-//       <div>
-//         <h2>{name}</h2>
-//         <p>Location: {location}</p>
-//         <p>Rating: {'★'.repeat(rating)}</p>
-//       </div>
-//     );
-//   }
-
-//   export default RestaurantCard;

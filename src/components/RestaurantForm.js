@@ -65,18 +65,7 @@ function RestaurantForm( addRestaurant) {
             </button> 
           </> 
         ))} 
-      </ul> 
-  
-      {/* <input
-        type="text"
-        value={'name'}
-        onChange={(e) => setName(e.target.value)}
-        data-testid='restaurant-name-input'
-        placeholder='Enter restaurant name'
-      />
-      <button type="submit" data-testid='add-restaurant-button'>
-        Add
-      </button> */}
+      </ul>
     </form>
     </div>
   );
